@@ -14,7 +14,7 @@ const ImageUpload: React.FC = () => {
     <div className="flex flex-col items-center justify-center p-6 border-2 border-dashed border-gray-300 rounded-lg w-full mx-auto">
       <input
         id="file-upload"
-        name="file-upload"
+        name="coverImage"
         type="file"
         className="sr-only"
         onChange={handleFileChange}
